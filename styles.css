@@ -42,16 +42,17 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 
 .el-dropdown-menu__item[data-v-1cc2919e]:hover{background:black;color:white;}
 
-    
+/*
 .user[data-v-62eacfff]{
     display:none;
 }
+*/
 
 .markdown-spoiler{
     background:white;
 }
 
-.el-dialog__body{background:white;}
+.el-dialog__body{background:white; border-radius: 0;}
 
 .result-col[data-v-17620a08]{background:white; border-radius:0;}
 
@@ -60,6 +61,8 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 [data-v-17620a08] .result .image{border-radius:0;}
 
 .result[data-v-17620a08]:hover{background:black;}
+
+.result-col[data-v-17620a08] .title[data-v-17620a08]{color:white;}
 
 .markdown .markdown-spoiler::before{
     background:transparent;
@@ -90,12 +93,62 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 
 .link[data-v-62eacfff]{
     color:black;
+    text-decoration: none;
+    position: relative;
+    padding: 0; 
+    margin: auto 20px auto 20px; 
+}
+
+.link[data-v-62eacfff]::before{
+    content: '';
+    background-color: hsl(196, 0%, 0%);
+    filter: hue-rotate(90deg);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .1s ease-in-out;
 }
 
 
+.link[data-v-62eacfff]:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.link[data-v-62eacfff]:hover{
+    color: white;
+}
+
+/*
 .link[href="/forum/overview"], .browse-wrap[data-v-62eacfff]{
     display:none;
+}*/
+
+.dropdown[data-v-38edf8f8], .dropdown[data-v-04b245e6]{
+    background-color:white;
+    border-radius:0px;
 }
+
+.dropdown[data-v-38edf8f8]::before, .dropdown[data-v-04b245e6]::before{
+    color:white;
+}
+
+.footer[data-v-38edf8f8], .footer[data-v-04b245e6]{
+    border-radius:0px;
+    background-color:#0000000a ; 
+}
+
+a[data-v-38edf8f8], .label[data-v-04b245e6],  a[data-v-04b245e6]{color:black;}
+
+a[data-v-04b245e6]:hover{color:black;}
+.secondary-link[data-v-04b245e6]:hover{color:black;}
+.footer[data-v-38edf8f8] a[data-v-38edf8f8]:hover{color:black;}
+.secondary-links[data-v-38edf8f8] a[data-v-38edf8f8]:hover{color:black;}
+.primary-link-text[data-v-38edf8f8]:hover{color:black;}
 
 img[data-v-62eacfff]{
     display:none;
@@ -140,10 +193,10 @@ img[data-v-62eacfff]{
 
 .about[data-v-5c30286e] .content-wrap[data-v-5c30286e] img{border-radius:0}
 
-
+/*
 .link[data-v-1cc2919e]:nth-child(7), .link[data-v-1cc2919e]:nth-child(8){
     display:none;
-}
+}*/
 
 /* ACTIVITES */
 
@@ -211,7 +264,7 @@ a[data-v-c574a71c]{ /* avertissement before posting */
     color:black;
 }
 
-.activity-markdown[data-v-b584a8de]{
+.activity-markdown[data-v-b584a8de], .activity-markdown[data-v-b584a8de] h1, .activity-markdown[data-v-b584a8de] h2{
     color:black;
 }
 
@@ -270,6 +323,10 @@ time[data-v-732ef224]{
 
 .favourite[data-v-0317d914]{
     border-radius:0;
+}
+
+.favourite[data-v-0317d914]:hover{
+    transform:translateY(3px);
 }
 
 .favourite.studio[data-v-0317d914]{color:black;}
@@ -350,20 +407,15 @@ time[data-v-732ef224]{
 
 
 /* CSS SHADOW EFFECT
-
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
 box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 https://getcssscan.com/css-box-shadow-examples
-
 */
 
 
 /* TO DO
 
-width avatar
+couleurs ?
+likes color
 
 */
-
-
-
-

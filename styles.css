@@ -1,0 +1,350 @@
+/* GENERAL */
+
+body {
+    background:white;
+}
+
+.input[data-v-17620a08]{
+    background:white;
+    border-radius: 0px;
+}
+
+path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
+    fill:black;
+}
+
+.name[data-v-1cc2919e] { 
+    /* page owner name tag */
+    font-size: 2em; 
+}
+
+.avatar[data-v-1cc2919e]{ 
+    /* page owner main avatar*/
+    max-width: 255px;
+}
+
+    
+.user[data-v-62eacfff]{
+    display:none;
+}
+
+.markdown-spoiler{
+    background:white;
+}
+
+.el-dialog__body{background:white;}
+
+.result-col[data-v-17620a08]{background:white; border-radius:0;}
+
+.result[data-v-17620a08]{color:black; border-radius:0;}
+[data-v-17620a08] .result:first-of-type{border-radius:0;}
+[data-v-17620a08] .result .image{border-radius:0;}
+
+.result[data-v-17620a08]:hover{background:black;}
+
+.markdown .markdown-spoiler::before{
+    background:transparent;
+    border-radius:0px;
+    padding: 10px;
+    color:black;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    content: "ㅤㅤㅤㅤㅤㅤㅤｓｐｏｉｌｅｒ" ;
+}
+
+.markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown-spoiler.spoiler-visible span{
+    background:transparent;
+}
+
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {color:black}
+
+/* TOP MENU (home, profile...) */
+
+#nav{
+    background:white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+
+.progress[data-v-5d42c114]{background:black;}
+
+.input input[data-v-17620a08]{color:black;}
+.input input[data-v-17620a08]::placeholder{color:black;}
+
+.link[data-v-62eacfff]{
+    color:black;
+}
+
+
+.link[href="/forum/overview"], .browse-wrap[data-v-62eacfff]{
+    display:none;
+}
+
+img[data-v-62eacfff]{
+    display:none;
+}
+
+.logo[data-v-62eacfff]{
+    background-size: cover;
+    background-size: 95%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-image: url(https://i.ibb.co/tcQswrj/2bvmtpa7z0131-cropped.png);
+}
+
+/* HIDDEN STUFF */
+
+.stats-wrap[data-v-5c30286e]{ /* stats au dessus des activités */
+    display:none;
+}
+
+.genre-overview.content-wrap[data-v-63cd3b41], .section-header[data-v-63cd3b41]{ /* genre overview */
+    display:none;
+}
+
+
+/* MENU 2 (overview, animelist, manga list... */
+
+.nav-wrap[data-v-1cc2919e]{
+    background:white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+
+.nav .link[data-v-1cc2919e]{
+    color:black;
+}
+
+.about[data-v-5c30286e] .content-wrap[data-v-5c30286e]{
+    background:white;
+    color:black;
+    border-radius:0px ; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
+
+.about[data-v-5c30286e] .content-wrap[data-v-5c30286e] img{border-radius:0}
+
+
+.link[data-v-1cc2919e]:nth-child(7), .link[data-v-1cc2919e]:nth-child(8){
+    display:none;
+}
+
+/* ACTIVITES */
+
+.el-textarea__inner {
+    background:white;
+    border-radius:0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color:black;
+}
+
+.el-textarea__inner::placeholder{
+    color:black;
+}
+
+.el-dropdown-link.el-dropdown-selfdefine[data-v-eb51fd0e]{color:black;}
+.el-dropdown-menu__item[data-v-eb51fd0e]{color:black;}
+.el-dropdown-menu__item[data-v-eb51fd0e]:hover{background:black;}
+
+.section-header[data-v-c574a71c]{
+    color:black;
+}
+
+.markdown-editor[data-v-c574a71c]{
+    background:white;
+}
+
+.svg-inline--fa path:not(.entry-dropdown path[data-v-b584a8de]) {
+    fill:black;
+}
+
+.button[data-v-c574a71c]{
+    border-radius:0;
+}
+
+.button.cancel[data-v-c574a71c]{
+    background:white;
+    color:black;
+}
+
+.button.cancel[data-v-c574a71c]:hover{
+    box-shadow:none;
+}
+
+.button.save[data-v-c574a71c]{
+    background:black;
+}
+
+a[data-v-c574a71c]{ /* avertissement before posting */
+    display:none;
+}
+
+.wrap[data-v-b584a8de]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+    background:white;
+    border-radius: 0px;
+    transition: all 300ms ease-in-out;
+}
+
+.wrap[data-v-b584a8de]:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+
+.status[data-v-b584a8de]{
+    color:black;
+}
+
+.activity-markdown[data-v-b584a8de]{
+    color:black;
+}
+
+time[data-v-b584a8de]{
+    color:black;
+}
+
+.donator-badge.private-badge.has-label[data-v-b584a8de]{
+    background:transparent;
+    color:black;
+}
+
+.el-dropdown-menu__item[data-v-b584a8de]{color:black}
+.el-dropdown-menu__item[data-v-b584a8de]:hover{background:black}
+
+
+
+.reply[data-v-732ef224]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+    background:white;
+    border-radius: 0px;
+    transition: all 300ms ease-in-out;
+
+}
+
+.reply[data-v-732ef224]:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+
+.reply-markdown[data-v-732ef224]{
+    color:black;
+}
+
+time[data-v-732ef224]{
+    color:black;
+}
+
+.action[data-v-732ef224]{
+    color:black;
+}
+
+/* FAV ET STATS */
+    
+
+.favourites-wrap[data-v-ddf96a3c]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+    background:white;
+    border-radius:0;
+    
+}
+
+.section-header[data-v-ddf96a3c], .section-header[data-v-eb51fd0e], .section-header[data-v-b79eb0f0]{
+    color:black;
+}
+
+.favourite[data-v-0317d914]{
+    border-radius:0;
+}
+
+.favourite.studio[data-v-0317d914]{color:black;}
+
+.activity-history.content-wrap[data-v-b79eb0f0]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    background:white;
+    border-radius: 0px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history-day[data-v-b79eb0f0]{
+    border-radius:0px;
+    height:60px;
+    width: 60px;
+}
+
+.history-day.lv-0[data-v-b79eb0f0]{
+    background:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; /*different shadows*/
+}
+
+/* HIDE THE FOOTER */
+
+.load-more[data-v-6f203cf2]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+    background:white;
+    border-radius: 0px;
+    color:black;
+}
+
+.load-more[data-v-6f203cf2]:hover{
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.footer[data-v-a5dce466] {
+    display:none;
+}
+
+
+
+/* making stuff bigger */
+
+.avatar[data-v-732ef224], .text .avatar[data-v-b584a8de]{ 
+    /* page visiter avatar in replies */
+    /*width: 80px;*/
+    height:80px;
+    background-position-x: center; 
+    background-position-y: center;
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+
+.name[data-v-732ef224]{ 
+    /* page visiter name in activity replies */
+    margin-top: 29px;
+    font-size:20px;
+}
+
+.name[data-v-b584a8de]{
+    font-size:20px;
+    height: 55px;
+}
+
+.cover[data-v-b584a8de]{ 
+    /* cover of activities */
+    width:100px;
+    height: 140px;
+}
+
+.details[data-v-b584a8de]{ 
+    /* details on activities */
+    margin-left: 50px;
+}
+
+
+/* CSS SHADOW EFFECT
+
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+https://getcssscan.com/css-box-shadow-examples
+
+*/
+
+
+/* TO DO
+
+width avatar
+
+*/
+
+
+
+

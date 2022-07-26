@@ -41,6 +41,9 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 }
 
 .el-dropdown-menu__item[data-v-1cc2919e]:hover{background:black;color:white;}
+.input.el-textarea[data-v-c574a71c]{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+}
 
 /*
 .user[data-v-62eacfff]{
@@ -303,7 +306,7 @@ time[data-v-732ef224]{
     color:black;
 }
 
-.action[data-v-732ef224]{
+.action[data-v-732ef224] path[data-v-732ef224]{
     color:black;
 }
 
@@ -417,5 +420,7 @@ https://getcssscan.com/css-box-shadow-examples
 
 couleurs ?
 likes color
+
+border-radius de certains dropdowns
 
 */

@@ -20,8 +20,27 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 
 .avatar[data-v-1cc2919e]{ 
     /* page owner main avatar*/
-    max-width: 255px;
+    display: block;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
 }
+
+.mod-badge-wrap.follower-badge[data-v-1cc2919e]{
+    background-color:black;
+    color:white;
+    border-radius:0;
+    transform: translateY(-10px);
+}
+
+.nav-btn[data-v-1cc2919e]{
+    background:black;
+    color:white;
+    border-radius:0;
+}
+
+.el-dropdown-menu__item[data-v-1cc2919e]:hover{background:black;color:white;}
 
     
 .user[data-v-62eacfff]{
@@ -299,7 +318,7 @@ time[data-v-732ef224]{
 
 .avatar[data-v-732ef224], .text .avatar[data-v-b584a8de]{ 
     /* page visiter avatar in replies */
-    /*width: 80px;*/
+    width: 80px;
     height:80px;
     background-position-x: center; 
     background-position-y: center;

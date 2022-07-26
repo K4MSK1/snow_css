@@ -45,6 +45,16 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
 }
 
+.el-dropdown-menu.el-popper.el-dropdown-menu--medium[data-v-b584a8de]{
+    background-color:white !important;
+    border-radius: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.el-dropdown-menu__item[data-v-b584a8de]{
+    background:white !important;
+}
+
 /*
 .user[data-v-62eacfff]{
     display:none;
@@ -85,7 +95,7 @@ path[data-v-17620a08], path[data-v-62eacfff], path[data-v-62eacfff]{
 /* TOP MENU (home, profile...) */
 
 #nav{
-    background:white;
+    background:white !important;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
 }
 
@@ -178,6 +188,11 @@ img[data-v-62eacfff]{
 
 /* MENU 2 (overview, animelist, manga list... */
 
+.link.router-link-exact-active.router-link-active[data-v-1cc2919e]{
+    background:black !important;
+    color:white;
+}
+
 .nav-wrap[data-v-1cc2919e]{
     background:white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
@@ -191,6 +206,7 @@ img[data-v-62eacfff]{
     background:white;
     color:black;
     border-radius:0px ; 
+    padding: 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
 }
 
@@ -317,7 +333,10 @@ time[data-v-732ef224]{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
     background:white;
     border-radius:0;
-    
+}
+
+.overview .favourites > .favourites-wrap {
+    padding: 15px !important;    
 }
 
 .section-header[data-v-ddf96a3c], .section-header[data-v-eb51fd0e], .section-header[data-v-b79eb0f0]{
@@ -338,6 +357,7 @@ time[data-v-732ef224]{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
     background:white;
     border-radius: 0px;
+    padding: 10px;
     
     display: flex;
     flex-wrap: wrap;
